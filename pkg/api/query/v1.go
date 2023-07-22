@@ -84,7 +84,7 @@ type PromqlEngineType string
 
 const (
 	PromqlEnginePrometheus PromqlEngineType = "prometheus"
-	PromqlEngineThanos     PromqlEngineType = "thanos"
+	PromqlEngineThanos     PromqlEngineType = "prom"
 )
 
 type QueryEngineFactory struct {
